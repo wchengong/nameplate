@@ -3,7 +3,6 @@ YOUR STYLES
 *******************/
 
 article {
-    background: teal;
     margin: auto;
     padding: 3em;
 }
@@ -81,7 +80,7 @@ h1 {
   }
 }
 
-img:hover {
+article img:hover {
     animation: rubberBand 1s infinite;
 }
 
