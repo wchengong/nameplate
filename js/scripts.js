@@ -3,4 +3,9 @@
 $('h1').lettering();
 
 //make the backstretch go!//
-$.backstretch('/img/1.jpg');
+$.backstretch('/img/2.jpg');
+
+$('.body').section({
+  columnWidth: 200,
+  itemSelector: '.p'
+});

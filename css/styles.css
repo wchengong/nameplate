@@ -84,6 +84,13 @@ article img:hover {
     animation: rubberBand 1s infinite;
 }
 
+/*masonry*/
+p{
+    background: white;
+    display: inline-block;
+    width: 300px; 
+    height: 300px;
+}
 
 /********************
 MEDIA QUERIES
