@@ -5,7 +5,10 @@ $('h1').lettering();
 //make the backstretch go!//
 $.backstretch('/img/2.jpg');
 
-$('.body').section({
-  columnWidth: 200,
-  itemSelector: '.p'
+// Intialize Masonry
+$('article').masonry({
+	itemSelector: 'section',
+	columnWidth: 200,
+	gutter: 10,
+	isFitWidth: true
 });
