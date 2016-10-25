@@ -8,7 +8,7 @@ $.backstretch('/img/cat.jpg');
 // Intialize Masonry
 $('article').masonry({
 	itemSelector: 'section',
-	columnWidth: 200,
+	columnWidth: 100,
 	gutter: 10,
 	isFitWidth: true
 });

@@ -2,6 +2,9 @@
 YOUR STYLES
 *******************/
 
+* {box-sizing:border-box;}
+
+
 article {
     margin: auto;
     padding: 3em;
@@ -11,13 +14,28 @@ h1 {
 	font-family: 'Gloria Hallelujah', cursive;
     font-size: 3em;
     text-transform:capitalize;
-    text-align: left;
-    
+    text-align: center;  
 }
 
+h3 {
+	font-size:14px;
+	font-family: 'Gloria Hallelujah', cursive;
+	}
+
+p {
+	font-size:10px;
+	font-family: 'Gloria Hallelujah', cursive;
+	padding:1em;
+	}
+	
+	
 img {
-	width:50%;
+	width:99%;
 }
+
+li {
+	dispaly: list-item;
+	}s
 
 /* frist frame */
 .char1,
@@ -45,17 +63,35 @@ img {
 .char9:hover {
     transform: rotate(20deg) scale(0.75)
 }
+	
+/* clearfix */
+section:after {
+  content: '';
+  display: block;
+  clear: both;
+}
 
+/* Masonry Styling */
 section {
-	background: gray;
-	float:left;
-	padding:3em;
-	margin:2em;
-	}
+  background: gray;
+  border: 1px solid black;
+   float: left;
+  padding: 1em;
+  margin-bottom: 10px;
+  width: 200px;
+}
 
-script{
-	display:none;
-	}
+.tall {
+  height: 300px;
+}
+
+.med {
+  height: 200px;
+}
+
+.short {
+  height: 100px;
+}
 	
 /* keyframe animation @keyframes rubberband dwonload from animate.css*/
 @keyframes rubberBand {
