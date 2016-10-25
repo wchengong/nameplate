@@ -45,7 +45,10 @@ img {
     transform: rotate(20deg) scale(0.75)
 }
 
-
+section {
+	float:left;
+	padding:2em;
+	}
 /* keyframe animation @keyframes rubberband dwonload from animate.css*/
 @keyframes rubberBand {
   from {
