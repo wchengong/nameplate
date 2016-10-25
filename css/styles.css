@@ -11,6 +11,7 @@ article {
 }
 
 h1 {
+    color: whitesmoke;
 	font-family: 'Gloria Hallelujah', cursive;
     font-size: 3em;
     text-transform:capitalize;
@@ -23,6 +24,7 @@ h3 {
 	}
 
 p {
+    
 	font-size:10px;
 	font-family: 'Gloria Hallelujah', cursive;
 	padding:1em;
@@ -39,28 +41,66 @@ li {
 
 /* frist frame */
 .char1,
+.char2,
+.char3,
 .char4,
+.char5,
+.char6,
+.char7,
+.char8,
 .char9,
-.char13 {
-    background: white;
-    box-shadow: inset 0 0 20px gray;
+.char10,
+.char11,
+.char12,
+.char13,
+.char14,
+.char15,
+.char16 {
+    box-shadow: inset 0 0 10px gray;
     display:inline-block; 
     padding: .1em;
-    border-bottom: 7px solid red; 
     transition: transform .5s;
 }
 
-.char1{ 
-    letter-spacing: 4px;
+.char1,
+.char2,
+.char3,
+.char4,
+.char5,
+.char6,
+.char7,
+.char8,
+.char9,
+.char10,
+.char11,
+.char12,
+.char13,
+.char14,
+.char15,
+.char16 { 
+    letter-spacing: 5px;
 }
 /* last frame */
 .char1:hover,
-.char13:hover {
+.char3:hover,
+.char5:hover,
+.char7:hover,
+.char9:hover,
+.char11:hover,
+.char13:hover
+.char15:hover {
     transform: rotate(-15deg) scale(1.2)
 }
 
+
+.char2:hover,
 .char4:hover,
-.char9:hover {
+.char6:hover,
+.char8:hover,
+.char10:hover,
+.char12:hover,
+.char14:hover,
+.char16:hover {
     transform: rotate(20deg) scale(0.75)
 }
 	
