@@ -8,7 +8,8 @@ article {
 }
 
 h1 {
-    font-size: 4em;
+	font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3em;
     text-transform:capitalize;
     text-align: left;
     
@@ -46,9 +47,16 @@ img {
 }
 
 section {
+	background: gray;
 	float:left;
-	padding:2em;
+	padding:3em;
+	margin:2em;
 	}
+
+script{
+	display:none;
+	}
+	
 /* keyframe animation @keyframes rubberband dwonload from animate.css*/
 @keyframes rubberBand {
   from {
