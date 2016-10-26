@@ -24,7 +24,6 @@ h3 {
 	}
 
 p {
-    
 	font-size:10px;
 	font-family: 'Gloria Hallelujah', cursive;
 	padding:1em;
@@ -36,8 +35,8 @@ img {
 }
 
 li {
-	dispaly: list-item;
-	}s
+	
+	}
 
 /* frist frame */
 .char1,
@@ -56,7 +55,7 @@ li {
 .char14,
 .char15,
 .char16 {
-    box-shadow: inset 0 0 10px gray;
+    
     display:inline-block; 
     padding: .1em;
     transition: transform .5s;
@@ -69,7 +68,6 @@ li {
 .char5,
 .char6,
 .char7,
-.char8,
 .char9,
 .char10,
 .char11,
@@ -96,7 +94,6 @@ li {
 .char2:hover,
 .char4:hover,
 .char6:hover,
-.char8:hover,
 .char10:hover,
 .char12:hover,
 .char14:hover,
@@ -113,24 +110,23 @@ section:after {
 
 /* Masonry Styling */
 section {
-  background: gray;
-  border: 1px solid black;
-   float: left;
+  box-shadow: inset 0 0 50px whitesmoke;
+    float: left;
   padding: 1em;
   margin-bottom: 10px;
   width: 200px;
 }
 
 .tall {
-  height: 300px;
+  height: 400px;
 }
 
 .med {
-  height: 200px;
+  height: 300px;
 }
 
 .short {
-  height: 100px;
+  height: 150px;
 }
 	
 /* keyframe animation @keyframes rubberband dwonload from animate.css*/
