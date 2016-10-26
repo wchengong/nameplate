@@ -152,12 +152,12 @@ article img:hover {
 /*masonry*/
 p{
     color: whitesmoke;
-    font-size:10px;
+    font-size:11px;
 	font-family: 'Gloria Hallelujah', cursive;
 	padding:1em;
     display: inline-block;
     opacity: 0.9;
-    width: 160px; 
+    width: 275px; 
 }
 
 /********************

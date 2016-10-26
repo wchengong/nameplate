@@ -3,7 +3,7 @@
 $('h1').lettering();
 
 //make the backstretch go!//
-$.backstretch('/nameplate/img/cat.jpg');
+$.backstretch('/img/cat.jpg');
 
 // Intialize Masonry
 $('article').masonry({
