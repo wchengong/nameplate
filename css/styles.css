@@ -164,23 +164,23 @@ p{
 MEDIA QUERIES
 *******************/
 
-/* Desktop */
-@media (min-width: 1200px) {
-      body {
-       background-color: black;
+/* Mobile */
+@media (min-width: 480px) {
+    body {
+       background-color: mediumpurple;
   }
 }
 
 /* Tablet */
 @media (min-width: 768px) {
-         body {
+    body {
        background-color: gray;
   }
 }
 
-/* Mobile */
-@media (min-width: 480px) {
-         body {
-       background-color: darkviolet;
+/* Desktop */
+@media (min-width: 1200px) {
+    body {
+       background-color: black;
   }
 }
