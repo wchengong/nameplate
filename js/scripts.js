@@ -1,9 +1,9 @@
-// Intialize Letteringg JS
 
+// Intialize Letteringg JS
 $('h1').lettering();
 
 //make the backstretch go!//
-$.backstretch('/img/cat.png');
+$.backstretch('/nameplate/img/cat.jpg');
 
 // Intialize Masonry
 $('article').masonry({
