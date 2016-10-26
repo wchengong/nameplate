@@ -30,6 +30,7 @@ img {
 
 ul {
     display: block;
+    font-family: 'Gloria Hallelujah', cursive;
     list-style-type:none;
 }
 
@@ -95,15 +96,15 @@ section {
 }
 
 .tall {
-  height: 400px;
+  height: 420px;
 }
 
 .med {
-  height: 300px;
+  height: 275px;
 }
 
 .short {
-  height: 150px;
+  height: 200px;
 }
 	
 /* keyframe animation @keyframes rubberband dwonload from animate.css*/
