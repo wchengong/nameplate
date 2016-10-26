@@ -6,7 +6,7 @@ YOUR STYLES
 
 
 article {
-    margin: auto;
+    margin: 0 auto;
     padding: 3em;
 }
 
@@ -19,24 +19,19 @@ h1 {
 }
 
 h3 {
+    color: whitesmoke;
 	font-size:14px;
 	font-family: 'Gloria Hallelujah', cursive;
 	}
 
-p {
-	font-size:10px;
-	font-family: 'Gloria Hallelujah', cursive;
-	padding:1em;
-	}
-	
-	
 img {
-	width:99%;
+    width: 270px;
 }
 
-li {
-	
-	}
+ul {
+    display: block;
+    list-style-type:none;
+}
 
 /* frist frame */
 .char1,
@@ -54,30 +49,13 @@ li {
 .char13,
 .char14,
 .char15,
-.char16 {
-    
+.char16 {    
     display:inline-block; 
+    letter-spacing: 7px;
     padding: .1em;
     transition: transform .5s;
 }
 
-.char1,
-.char2,
-.char3,
-.char4,
-.char5,
-.char6,
-.char7,
-.char9,
-.char10,
-.char11,
-.char12,
-.char13,
-.char14,
-.char15,
-.char16 { 
-    letter-spacing: 5px;
-}
 /* last frame */
 .char1:hover,
 .char3:hover,
@@ -89,7 +67,6 @@ li {
 .char15:hover {
     transform: rotate(-15deg) scale(1.2)
 }
-
 
 .char2:hover,
 .char4:hover,
@@ -114,7 +91,7 @@ section {
     float: left;
   padding: 1em;
   margin-bottom: 10px;
-  width: 200px;
+  width: 300px;
 }
 
 .tall {
@@ -173,10 +150,13 @@ article img:hover {
 
 /*masonry*/
 p{
-    background: white;
+    color: whitesmoke;
+    font-size:10px;
+	font-family: 'Gloria Hallelujah', cursive;
+	padding:1em;
     display: inline-block;
-    width: 300px; 
-    height: 300px;
+    opacity: 0.9;
+    width: 160px; 
 }
 
 /********************
@@ -184,16 +164,13 @@ MEDIA QUERIES
 *******************/
 
 /* Desktop */
-@media (min-width: 1200px) {
-
+@media (min-width: 1px) {
 }
 
 /* Tablet */
 @media (min-width: 768px) {
-
 }
 
 /* Mobile */
 @media (min-width: 480px) {
-
 }
